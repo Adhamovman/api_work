@@ -2,7 +2,7 @@
   font-family: "Poppins", sans-serif;
 }
 
-.teachersRow {
+#teachers, #students {
   display: grid;
   grid-template-columns: auto auto auto;
   gap: 40px;
@@ -50,7 +50,7 @@
 }
 @media screen and (max-width: 768px) {
   .form-control,
-  #button-addon2 {
+  #modalOpenBtn {
     font-size: 12px;
   }
   .card-img-top {

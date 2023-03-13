@@ -2,35 +2,35 @@
   font-family: "Poppins", sans-serif;
 }
 
-.teachersRow {
+#teachers, #students {
   display: grid;
   grid-template-columns: auto auto auto;
   gap: 40px;
 }
 @media screen and (max-width: 992px) {
-  .teachersRow {
+  #teachers, #students {
     grid-template-columns: auto auto;
     gap: 32px;
   }
-  .teachersRow .card-text {
+  #teachers .card-text, #students .card-text {
     font-size: 14px;
   }
-  .teachersRow .card-title {
+  #teachers .card-title, #students .card-title {
     font-size: 22px;
   }
 }
 @media screen and (max-width: 768px) {
-  .teachersRow {
+  #teachers, #students {
     grid-template-columns: auto;
     gap: 20px;
   }
-  .teachersRow .card-text {
+  #teachers .card-text, #students .card-text {
     font-size: 12px;
   }
-  .teachersRow .card-title {
+  #teachers .card-title, #students .card-title {
     font-size: 18px;
   }
-  .teachersRow .btn {
+  #teachers .btn, #students .btn {
     font-size: 12px;
   }
 }
@@ -59,7 +59,7 @@
 
 @media screen and (max-width: 768px) {
   .form-control,
-#button-addon2 {
+#modalOpenBtn {
     font-size: 12px;
   }
   .card-img-top {
